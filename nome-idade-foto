@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <center>
+        <font color="red" size="7">
+           Tabelas - parte 1
+        </font>
+   
+   <br><br>
+
+    <table border="1" width="50">
+       <tr bgcolor="#B0E0E6">
+          <td wigth="150" align="center"><b>NOME</b></td>
+          <td align="center"><b>IDADE</b></td>
+          <td align="center"><b>FOTO</b></td>
+          <tr>
+          <td>Camila</td>
+          <td>22</td>
+          <td><img src="../imagens/mulheres/mulher1.jpg" width="100%"></td>
+          </tr>
+          <tr>
+          <td>Roberta</td>
+          <td>38</td>
+          <td><img src="../imagens/mulheres/mulher2.jpg" width ="100%"></td>
+          </tr>
+          <tr>
+          <td>Jessica</td>
+          <td>26</td>
+          <td><img src="../imagens/mulheres/mulher3.jpg" width="100%"></td>
+          </tr>
+          <tr>
+          <td>Marcos</td>
+          <td>19</td>
+          <td><img src="../imagens/homens/homem1.jpg" width="100%"></td>
+          </tr>
+          <tr>
+          <td>Eduardo</td>
+          <td>34</td>
+          <td><img src="../imagens/homens/homem2.jpg" width="100%"></td>
+          </tr>
+          <tr>
+          <td>Felipe</td>
+          <td>23</td>
+          <td><img src="../imagens/homens/homem3.jpg" width="100%"></td>
+          </tr>
+       </tr>
+    </table>
+   </center>  
+</body>
+</html>
