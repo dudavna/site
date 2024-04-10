@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<>, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        $sexo = prompt("Qual é o seu sexo? [M] ou [F]") 
+        document.writeln("Sexo =  " + $sexo)
+
+        $idade = prompt("Digite sua idade: ")
+        if($idade < 18)
+        {
+             document.write("Menor de idade")
+        }
+        else
+        {
+             document.write("Maior de idade")
+        }
+
+       document.write("<br>")
+       document.write("<br>")
+
+       if($sexo == "M")
+       {
+          if($idade < 18) {
+            document.write("Menino")
+          }
+          else
+          {
+            document.write("Homem")
+          }
+       }
+       else
+       {
+
+       }
+       document.write("<br>")
+       document.write("<br>")
+
+       if($sexo == "F")
+       {
+          if($idade < 18) {
+            document.write("Menina")
+          }
+          else
+          {
+            document.write("Mulher")
+          }
+       }
+       else
+       {
+
+       }
+
+       document.write("<center>")
+       document.write("<font color='red' size='6' > SENAI / SUMARÉ </font>")
+       document.write("<br>")
+       document.write("<img src='../imagens/homens/homem2.jpg' width='20%''>") 
+       document.write("<br>")
+    </script>
+</head>
+<body>
+    <center>
+         <font color="black" size="7">
+            Informações dos funcionários 
+        </font>
+
+        <br> <br>
+
+        <table border="1" width="600">
+            <tr height="100px" height="50px" bgcolor="#B0E0E6"> 
+              <td width="350" align="center"><B>NOME</B></td>
+              <td width="150" align="center"><B>IDADE</B></td>
+              <td align="center"  ><B>FOTO</B></td>
+            </tr>
+
+              <tr> 
+                <td align="center">Camila</td>
+                <td align="center">22</td>
+                <td align="center"><img src="../imagens/mulheres/mulher1.jpg" width="100%"></IMG></td>
+              </tr>
+
+              <tr> 
+                <td align="center">Roberta</td>
+                <td align="center">38</td>
+                <td align="center"><img src="../imagens/mulheres/mulher2.jpg" width="100%"></IMG></td>
+              </tr>
+
+              <tr> 
+                <td align="center">Jessica</td>
+                <td align="center">26</td>
+                <td align="center"><img src="../imagens/mulheres/mulher3.jpg" width="100%"></IMG></td>
+              </tr>
+
+              <tr> 
+                <td align="center">Marcos</td>
+                <td align="center">19</td>
+                <td align="center"><img src="../imagens/homens/homem1.jpg" width="100%"></IMG></td>
+              </tr>
+
+              <tr> 
+                <td align="center">Eduardo</td>
+                <td align="center">34</td>
+                <td align="center"><img src="../imagens/homens/homem2.jpg" width="100%"></IMG></td>
+              </tr>
+
+              <tr> 
+                <td align="center">Felipe</td>
+                <td align="center">23</td>
+                <td align="center"><img src="../imagens/homens/homem3.jpg" width="100%"></IMG></td>
+              </tr>
+    </center>
+</body>
