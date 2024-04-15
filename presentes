@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        $mes= prompt("Digite uma porta:")
+        switch($mes)
+        {
+
+            case "1":
+                document.write("<img src='/img/cachorros.jpg' width = '100%'>")
+                break;
+
+            case "2":
+                document.write("<img src='/img/carrovelho.jpg' width = '100%'>")
+                break;
+
+            case "3":
+                document.write("<img src='/img/carro.jpg' width = '100%'>")
+                break;
+
+            case "4":
+                document.write("<img src='/img/lixo.jpg' width = '100%'>")
+                break;
+
+           
+            default:
+                document.write("Opção Inválida !")
+                break;
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
