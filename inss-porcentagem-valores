@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        $salario = prompt("Digite seu sálario:")
+        $porcentagem = 0
+        $porcentagem_aliquota = 0
+
+        if ($salario < 1100.01)
+        {
+            $porcentagem = "7.5%"
+            $porcentagem_aliquota = 0.075
+        }
+        else if ($salario < 2203.49)
+        {
+            $porcentagem = "9%"
+            $porcentagem_aliquota = 0.09
+        }
+        else if ($salario < 3305.23)
+        {
+            $porcentagem = "12%"
+            $porcentagem_aliquota = 0.12
+        }
+        else 
+        {
+            $porcentagem = "14%"
+            $porcentagem_aliquota = 0.14
+        }
+
+        $valor_descontado_inss = ($salario * $porcentagem_aliquota)
+        document.write(" <center> <font color='black' size='7'> Tabela INSS - Porcentagem e valores </font>")
+        document.write("<table border='1' width='600'>")
+        document.write("<tr bgcolor='#E6E6FA' align='center'>")
+        document.write(" <td width='350' align='center'><B>SALARIO</B></td>")
+        document.write(" <td width='80' align='center'><B>DESCONTO</B></td>")
+        document.write(" </tr>")
+        document.write(" <tr>")
+        document.write("<td>")
+        document.write($salario)
+        document.write("</td>")
+        document.write("<td>")
+        document.write($valor_descontado_inss.toFixed(2))
+        document.write("</td>")
+        document.write(" </tr>")
+        document.write("</table>")
+
+    
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
