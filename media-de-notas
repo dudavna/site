@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+       $nota1 = prompt("Digite a sua primeira nota:")
+       $nota2 = prompt("Digite a sua segunda nota:")
+       $nota3 = prompt("Digite a sua terceira nota:")
+       $media = ((parseInt($nota1) + parseInt($nota2) + parseInt($nota3))/3)
+
+                document.write("<br>")
+                document.write("<center> <font color='red' size='7'> MÉDIA DE NOTAS </font>")
+                document.write("<table border='1' width='780'>")
+                document.write("<tr bgcolor='#FFF0F5' align='center'>")
+                document.write("<td width='350' align='center'><B>nota 1</B></td>")
+                document.write("<td width='80' align='center'><B>nota 2</B></td>")
+                document.write("<td width='80' align='center'><B>nota 3</B></td>")
+                document.write("<td width=''  align='center'><B>media</B></td>")
+                document.write(" </tr>")
+                document.write("<td>")
+                document.write($nota1)
+                document.write("</td>")
+                document.write("<td>")
+                document.write($nota2)
+                document.write("</td>")
+                document.write("<td>") 
+                document.write($nota3)
+                document.write("</td>")
+                document.write("<td>") 
+                document.write($media)
+                document.write("</td>")
+            </script>
+</head>
+<body>
+</body>
+</html>
