@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        $quantidade =  prompt("Digite a quantidade:")
+        $resultado = $quantidade
+ 
+        if($quantidade < 50)
+        {
+          $resultado = 'BAIXO'
+        }
+        else if($quantidade < 100)
+        {
+            $resultado = 'NORMAL'
+        }  
+ 
+        else
+         {
+            $resultado = ' ALTO'
+         }
+       
+                document.write(" <center> <font color='black' size='7'> Tabelas estoque </font>")
+                document.write("<table border='1' width='600'>")
+                document.write("<tr bgcolor='#E6E6FA' align='center'>")
+                document.write(" <td width='350' align='center'><B>ESTOQUE</B></td>")
+                document.write(" <td width='80' align='center'><B>CLASSIFICAÇÃO</B></td>")
+                document.write(" </tr>")
+                document.write(" <tr>")
+                document.write("<td>")
+                document.write($quantidade)
+                document.write("</td>")
+                document.write("<td>")
+                document.write($resultado)
+                document.write("</td>")
+                document.write(" </tr>")
+                document.write("</table>")
+ 
+    </script>
+</body>
+</html>
