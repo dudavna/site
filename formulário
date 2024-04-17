@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <form name="Form1" action="=Pag.2php" method="Post">
+    <form name="Form1" action="=Pag.2php" method="Post" action="" submit="return validar()"
 
         Nome: <input type="text" name="fNome"> <br>
         Idade:<input type="text" name="fIdade"> <br>
@@ -40,15 +40,12 @@
         <option value="SE">[SE] Sergipe</option>
         <option value="TO">[TO] Tocantins</option>
        </select> <br> 
-        Sexo:
-         <select name="fSexo">
-         <option value="emBranco">Escolha uma opção abaixo: </option>
-         <option value="masculino">masculino</option>
-         <option value="feminino">feminino</option>
-        </select> <br> <br>
         
-
-       
+        Sexo: <br>
+        Masculino <input type="radio" name="fSexo" value="masc">
+        Feminino <input type="radio" name="fSexo" value="fem">
+        <br>
+        
         <input type="submit" value="Gravar">
         <input type="reset" value="Limpar"> <!--Limpar os campos-->
 
@@ -60,3 +57,7 @@
     
 </body>
 </html>
+        
+
+       
+    
