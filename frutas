@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script>
+        function Validar() {
+            $frutas = ""
+            if (this.form1.Banana.checked) {
+                $frutas = $frutas + "Banana"
+            }
+            if (this.form1.Maça.checked) {
+                $frutas = $frutas + " Maça "
+            }
+            if (this.form1.Uva.checked) {
+                $frutas = $frutas + " Uva "
+            }
+            if (this.form1.Pêra.checked) {
+                $frutas = $frutas + " Pera "
+            }
+            if (this.form1.Morango.checked) {
+                $frutas = $frutas + " Morango "
+            }
+            if (this.form1.Manga.checked) {
+                $frutas = $frutas + " Manga "
+            }
+
+            alert("FRUTAS = " + $frutas)
+            $curso = this.form1.fcurso.value
+            alert("Curso = " + $curso)
+
+            return false
+
+        }
+
+
+
+    </script>
+
+</head>
+
+<body>
+    <form name="form1" action="pag2.php" method="post" onsubmit="return Validar()">
+        Escolha uma fruta: <br>
+        <input type="checkbox" name="Banana"> Banana <br>
+        <input type="checkbox" name="Maça"> Maça <br>
+        <input type="checkbox" name="Uva"> Uva <br>
+        <input type="checkbox" name="Pêra"> Pêra <br>
+        <input type="checkbox" name="Morango"> Morango <br>
+        <input type="checkbox" name="Manga"> Manga <br>
+
+
+        <input type="hidden" name="fcurso" value="DS">
+        <input type="submit" name="Gravar">
+    </form>
+
+</body>
