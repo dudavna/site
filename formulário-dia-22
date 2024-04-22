@@ -1,0 +1,158 @@
+PÁGINA 1:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function Validar()
+        {
+            $login = this.FORM1.fLogin.value;
+            $senha = this.FORM1.fSenha.value;
+            $qtdCaracteres_login = $login;
+            $qtdCaracteres_senha = $senha;
+
+            if($login = "senai" && $senha == "sumare")
+            {
+                window.location.href = "index.html"
+            }
+            else ($login != "senai" || $senha != "sumare")
+            {
+                window.location.href = "erro.html"
+            }
+            return false;
+        }
+    </script>
+</head>
+<body>
+    <center>
+    <img src="Senai.jpg" width="10%"> <br> <br>
+    <form name="FORM1" action="" method="Post" onsubmit="return Validar()">
+        LOGIN:<input type="text" name="fLogin"><br>
+        SENHA:<input type="password" name="fSenha"><br>
+                <input type="submit" value="Gravar">
+                <input type="reset" value="Limpar">
+            </center>
+    </form>
+</body>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PÁGINA 2:
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <title>Acesso negado</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecionamento</title>
+</head>
+<body>
+    <center>
+    <h1>ACESSO NEGADO <br></h1> 
+    <img src="negado.jpg" width="20%">
+    </center>
+    <center>
+    <button id="meuBotao">Clique aqui e volte para página inicial</button> 
+    </center>
+    <script src="script.js"></script>
+    <script>
+        
+var meuBotao = document.getElementById('meuBotao');
+
+
+meuBotao.addEventListener('click', function() {
+    
+    window.location.href = 'index.html';
+});
+    </script>
+</body>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PÁGINA 3:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+ 
+<body> 
+    <form name= "form1" action="pag2.php" method= "post" onsubmit="return Validar()"> 
+    <br> <br>
+    <font color ="black" size="7">
+        FORMULÁRIO &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+    </font>
+        <img src = "Senai.jpg" width="10%" <br> 
+     
+        <br>  
+
+    
+    <form name= "form1" action="pag2.php" method= "post"> 
+       
+        Nome: <input type= "text" name = "fNome"> <br>
+        Idade: <input type= "text" name = "fIdade">  &nbsp &nbsp &nbsp
+        Sexo: 
+        Masculino <input type="radio" name="fSexo" value="masculino">
+        Feminino <input type="radio" name="fSexo" value="feminino">
+        <br> <br> 
+        Curso:
+        <select name="fCurso">
+            <option value="emBranco">Escolha: </option>
+        
+            <option value="DS" >DS</option>
+            <option value="MECÂNICA" >MECÂNICA</option>
+            <option value="SOLDA" >SOLDA</option> 
+        </select> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+        Turno:
+        <select name="fTurno"> 
+            <option value="emBranco">Escolha: </option>
+
+            <option value="MANHÃ" >MANHÃ</option>
+            <option value="TARDE" >TARDE</option>
+            <option value="NOITE" >NOITE</option> 
+        </select> <br><br> 
+        Professor 1: 
+        <select name="fProfessor1">
+            <option value="emBranco"></option>
+
+            <option value="LUCAS CALU" >LUCAS CALU</option>
+            <option value="RICARDO CORRÊA" >RICARDO CORRÊ</option>
+        </select> &nbsp &nbsp &nbsp 
+        Professor 2: 
+        <select name="fProfessor2">
+            <option value="emBranco"></option>
+
+            <option value="LUCAS CALU" >LUCAS CALU</option>
+            <option value="RICARDO CORRÊA" >RICARDO CORRÊ</option>
+
+        </select> <br> <br> 
+
+         DISCIPLINA QUE MAIS GOSTA:
+         
+         <br><br>
+        
+         <form name ="form1" action="" nethod="post" onsubmit="return Validar()">
+          <input type="checkbox" name="HTML" value="HTML">
+          <label for="vehicle1">HTML</label><br>
+          <input type="checkbox" id="vehicle2" name="JAVASCRIPT" value="JAVASCRIPT">
+          <label for="vehicle2">JAVASCRIPT</label><br>
+          <input type="checkbox" id="vehicle3" name="ARDUINO" value="ARDUINO">
+          <label for="vehicle3">ARDUINO</label><br>
+          <input type="checkbox" id="vehicle1" name="LÓGICA" value="LÓGICA">
+          <label for="vehicle1">LÓGICA</label><br>
+          <input type="checkbox" id="vehicle2" name="GESTALT" value="GESTALT">
+          <label for="vehicle2">GESTALT</label><br><br><br>
+          <input type="submit" value="GRAVAR">
+          <input type="submit" value="LIMPAR">
+
+        </form>
+    </form>
+</body>
+</html>
