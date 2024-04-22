@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function Validar()
+        {
+            $login = this.FORM1.fLogin.value;
+            $senha = this.FORM1.fSenha.value;
+            $qtdCaracteres_login = $login;
+            $qtdCaracteres_senha = $senha;
+
+            if($login = "Senai" && $senha == "Sumare")
+            {
+                document.write("BEM-VINDO")  
+            }
+            else ($login != "Senai" || $senha != "Sumare")
+            {
+                alert("LOGIN OU SENHA INVÁLIDO")  
+            }
+            return false;
+        }
+    </script>
+</head>
+<body>
+    <form name="FORM1" action="" method="Post" onsubmit="return Validar()">
+        LOGIN:<input type="text" name="fLogin"><br>
+        SENHA:<input type="password" name="fSenha"><br>
+                <input type="submit" value="Gravar">
+                <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>
