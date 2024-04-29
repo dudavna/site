@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+
+    function mudarCor() {
+    
+    var body = document.querySelector("body");
+
+   
+    body.style.backgroundColor = "red";
+        
+        function ampliar(x) {
+          x.style.height = "400px";
+          x.style.width = "400px";
+        }
+        
+        function normal(x) {
+          x.style.height = "200px";
+          x.style.width = "200px";
+        }
+
+
+        function mudarCor(x) {
+          x.style.color = "red";
+         
+        }
+        
+        function manterCor(x) {
+            x.style.color = "black";
+        }
+
+
+function alerta()
+{
+   alert('Essa é a Mulher Maravilha');
+}
+
+function alerta2()
+{
+   alert('Esse é o homem aranha');
+}
+
+    }
+
+        </script>
+</head>
+<body>
+
+<img src="mulher.jpg" onmouseover="ampliar(this)" onmouseout="normal(this)" border="0"  alt="" width="320" height="320">
+
+
+
+<h1 onmouseover="mudarCor(this)" onmouseout="manterCor(this)" >titulo1</h1>
+
+<img src="homem.jpg" ondblclick="alerta2()"> 
+
+
+
+
+</body>
+</html>
