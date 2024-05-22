@@ -1,0 +1,128 @@
+-----------------ATIVIDADE SITE SIPAT------------------
+PÁGINA 1:
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+</head>
+<body bgcolor="#ddffd1">
+    
+    <center>
+    <header>
+        <h1>Bem-vindo à página inicial da SIPAT</h1>
+        <img src="sipat.jpg" width="25%"
+
+        <main>
+            <p> Você sabe o que é SIPAT? <br>
+                Conheça a semana de prevenção de acidente de trabalho organizada pela CIPA!<br>
+                Aqui vamos te explicar tudo sobre o assunto, como funciona e seus objetivos. 
+                
+            </p>
+        </main>
+        <nav>
+            <ul>
+                <a href="sobre.html" style="color:DarkGreen;">Sobre</a><br>
+                <a href="comofunciona.html" style="color:DarkGreen;">Como funciona</a><br>
+
+            </ul>
+        </nav>
+    </header>
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PÁGINA 2:
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+</head>
+<body bgcolor="#90EE90">
+    <center>
+    <main>
+        <h2>Conheça mais sobre nós!</h2>
+        <p>A SIPAT significa Semana Interna de Prevenção de Acidentes do Trabalho.<br>
+         Representa um evento com atividades direcionadas à prevenção de acidentes <br> 
+         do trabalho e doenças ocupacionais são realizadas. <br><br><br>
+         QUAL É O OBJETIVO DA SIPAT?<br>
+         Tem como objetivo promover conhecimento e reflexão, despertando um olhar crítico,<br>
+         do maior número de servidores possível, sobre a importância da prevenção de acidentes,<br>
+         combate ao adoecimento, segurança e qualidade de vida no local de trabalho e fora dele.<br>
+         Também levá-los a conhecer o papel e ações da comissão, desenvolvendo o entendimento e <br> 
+         cooperação necessários para levar adiante e com bons resultados o trabalho da CIPA.<br><br>
+        </p>
+    </main>
+    <img src="sobre.jpg" width="20%"
+    <header>
+        <nav>
+            <ul>
+                <a href="index.html"style="color:DarkGreen;">Página Inicial</a><br>
+                <a href="comofunciona.html"style="color:DarkGreen;">Como funciona</a><br>
+            </ul>
+        </nav>
+    </header>
+    </center>
+</body>
+</html>
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PÁGINA 3:
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Como funciona</title>
+</head>
+<body bgcolor="#8FBC8F">
+    <center>
+        <h1>Como funciona</h1>
+
+    <main>
+        <p>COMO DEVE SER REALIZADA?<br>      
+        A SIPAT deve ser feita com base na análise de registros de acidentes e afastamentos na unidade e,<br>
+        com a participação dos servidores da unidade que, por meio de algum instrumento de pesquisa,<br>
+        podem apontar os temas de prevenção de acidentes e saúde que gostariam de ver contemplados.<br><br><br>
+        COMO FUNCIONA A SEGURANÇA NO TRABALHO:<br>
+        -Evitando acidentes e doenças do trabalho;<br>
+        -Plano de evacuação e uso de equipamento contra incêndio;<br>
+        -Primeiros Socorros: conhecimento e agilidade para fazer a diferença;<br>
+        -Ergonomia;<br>
+        -Equipamento de Proteção Individual (EPI);<br>
+        -Equipamento de Proteção Coletiva (EPC);<br>
+        -Atividades em grupo como reflexões sobre segurança no ambiente de trabalho,<br>
+         por meio de dinâmicas, gincanas, sorteios e outras atividades.<br><br><br>
+        E POR FIM, A SAÚDE:<br>
+        -Hipertensão, Diabetes, Alcoolismo, Tabagismo, Nutrição, Dependência química;<br>
+        -A importância do sono e a relação com o trabalho;<br>
+        -Hábitos saudáveis: uma forma de controlar as doenças crônicas não transmissíveis;<br>
+        -Ginástica Laboral: pausa para uma rotina de trabalho saudável;<br>
+        -Saúde Mental;<br>
+        -Saúde da Mulher;<br>
+        -Saúde do Homem.<br><br>
+        Obrigado pela visita em nosso site, espero que tenham entendido um pouco sobre a SIPAT!</p>
+
+    </main>
+    <header>
+        <nav>
+            <ul>
+                <a href="index.html"style="color:DarkGreen;">Página Inicial</a><br>
+                <a href="sobre.html"style="color:DarkGreen;">Sobre</a>
+            </ul>
+        </nav>
+    </header>
+
+
+    
+    </center>
+</body>
+</html>
+
+
+
+-
