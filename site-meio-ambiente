@@ -1,0 +1,158 @@
+Página 1:
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+</head>
+<body bgcolor="#e4fcd4">
+    
+    <center>
+    <header>
+     <font color = "#427a26"   size="10"
+        <h1>MEIO AMBIENTE</h1>   <br><br>
+     </font>
+        <img src="meioambiente.jpg" width="25%" 
+
+        <main>
+            </nr><p> Vamos entender um pouco sobre o meio ambiente? <br>
+                Aqui vamos te explicar tudo sobre o assunto e conceitos relacionados. 
+                
+            </p>
+        </main>
+        <nav>
+            <ul>
+                <a href="explicação.html" style="color:DarkGreen;">Explicação</a><br>
+
+            </ul>
+        </nav>
+    </header>
+
+    
+    </center>
+</body>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Página 2:
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+</head>
+<body bgcolor="#dbf7cd">
+    <center>
+    <main>
+        <font color = "#427a26"   size="5"
+        <h2>O QUE É MEIO AMBIENTE?</h2>
+        <p>O meio ambiente se refere ao conjunto de condições, influências<br>
+           e elementos físicos, químicos, biológicos e sociais que cercam e<br>
+           afetam os organismos vivos, incluindo seres humanos,plantas, animais<br>
+           e microorganismos. Isso engloba tudo ao nosso redor: o ar que respiramos,<br>
+           a água que bebemos, o solo em que pisamos, os habitats naturais e construídos,<br>
+           bem como os ecossistemas globais como oceanos, florestas, desertos e montanhas.<br>
+           Manter um equilíbrio saudável no meio ambiente é crucial para garantir a sobrevivência<br>
+           e o bem-estar de todas as formas de vida na Terra.
+        </p>
+    </main>
+    <img src="importancia.jpg" width="20%"
+    <header>
+        <nav>
+            <ul>
+                <a href="importância.html"style="color:DarkGreen;">Importância</a><br>
+            </ul>
+        </nav>
+    </header>
+    </center>
+</body>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Página 3:
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+</head>
+<body bgcolor="#dbf7cd">
+    <center>
+    <main>
+        <font color = "#427a26"   size="5"
+        <h2>IMPORTÂNCIA</h2><br>
+        <p>O meio ambiente é essencial para a sobrevivência e o bem-estar<br>
+           de todas as formas de vida na Terra. Proteger e preservar o meio<br>
+           ambiente é uma responsabilidade compartilhada de todos os indivíduos,<br>
+           comunidades, governos e organizações para garantir um futuro sustentável<br>
+           para as gerações presentes e futuras. <br>
+           É importante porque é dele que os seres humanos retiram os recursos<br>
+           essenciais para a manutenção da vida e do funcionamento da sociedade,<br>
+           especialmente se tratando do desenvolvimento da economia no mundo.<br>
+           São esses recursos o ar, a água, os alimentos, as matérias-primas,<br>
+           utilizadas para a fabricação de outros alimentos, vestuário e itens básicos<br>
+           utilizados no nosso cotidiano.
+
+
+        </p>
+    </main>
+    <img src="importancia.jpg" width="20%"
+    <header>
+        <nav>
+            <ul>
+                <a href="final.html"style="color:DarkGreen;">Final</a><br>
+                <a href="index.html"style="color:DarkGreen;">Voltar ao início</a><br>
+            </ul>
+        </nav>
+    </header>
+    </center>
+</body>
+</html>
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Página 4:
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+</head>
+<body bgcolor="#E7F2D5">
+    <center>
+    <main>
+        <font color = "DarkGreen"   size="5"
+        <h2>E AQUI ESTÃO ALGUMAS PRÁTICAS SUSTENTÁVEIS QUE PODEM AJUDAR O MEIO AMBIENTE:</h2>
+        <p>-Evitar o desperdício de água;
+            <br>
+           -Fazer o descarte correto de lixos;
+           <br>
+           -Economizar energia elétrica;
+           <br>
+           -Utilizar energias limpas e renováveis;
+           <br>
+           -Não cometer desmatamentos e queimadas;
+           <br>
+           -Utilizar produtos biodegradáveis;
+           <br>
+           -Praticar o consumo consciente.
+           <br><br>
+           “O meio ambiente é parte da gente, temos que preservá-lo seja consciente!”.
+            
+        </p>
+    </main>
+    <img src="final.jpg" width="20%"
+    <header>
+        <nav>
+            <ul>
+                <a href="index.html"style="color:DarkGreen;">Início</a><br>
+            </ul>
+        </nav>
+    </header>
+    </center>
+</body>
+</html>
