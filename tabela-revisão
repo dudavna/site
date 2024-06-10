@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto"> <!-- Adicione a fonte desejada -->
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif; /* Use a fonte carregada */
+        }
+    </style>
+</head>
+<body bgcolor="#FFFFFF">
+    <br> <br> 
+   <center>
+      <img src="senai.jpg" width="15%" 
+      <br> <br> <br> 
+        <font color="#00000" size="5">
+          TABELA HTML - REVISÃO
+        </font>
+   
+   <br><br><br>
+
+    <table border="4" width="550">
+       <tr bgcolor="#191970">
+          <td wigth="170" align="center">  <span style="color: white;"> VANTAGENS </span></td>
+          <td align="center"><span style="color: white;"> DESVANTAGENS </span></td>
+          <tr>
+          <td><center> Cooperação dos professores; </center></td>
+          <td><center> Excesso de tarefas em html; </center></td>
+          </tr>
+          <tr>
+          <td><center> Tempo adequado para concluir as atividades; </center></td>
+          <td><center> Explicações rápidas e únicas; </center></td>
+          </tr>
+          <tr>
+          <td><center> As qualificações são ótimas dos professores; </center></td>
+          <td><center> Rigor acadêmico em determinadas situações; </center></td>
+          <tr>
+          <td> <center> Boa navegação em internet; </center></td>
+          </tr>
+          <tr>
+          <td><center> Trabalhos em equipe; </center></td>
+          </tr>
+
+          </tr>
+       </tr>
+    </table>
+   </center>
+
+</body>
+</html>
