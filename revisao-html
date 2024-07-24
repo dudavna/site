@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <center>
+        <font color="red" size="7">
+            MINHAS FÉRIAS
+        </font>
+        <br> <br>
+        <table border="1" width="600">
+            <tr bgcolor="#FFF0F5" align="center">
+                <td width=" " align="center"><B>FOTO</B></td>
+            </tr>
+            <tr>
+                <td><center><img src="../viagem.jpg" width='70%'></td>
+            </tr>
+            <tr>
+                <td><center><img src="../doente.jpg" width='70%'></td>
+            </tr>
+            <tr>
+                <td><center><img src="../comendo.jpg" width='70%'></td>
+            </tr>
+            <tr>
+                <td><center><img src="../compras.jpg" width='70%'></td>
+            </tr>
+            <tr>
+                <td><center><img src="../volei.jpg" width='70%'></td>
+            </tr>
+            <tr>
+                <td><center><img src="../sono.jpg" width='70%'></td>
+            </tr>
+            <tr>
+                <td><center><img src="../festa.jpg" width='70%'></td>
+            </tr>
+            <tr>
+                <td><center><img src="../academia.jpg" width='70%'></td>
+            </tr>
+            <tr>
+                <td><center><img src="../parque.jpg" width='70%'></td>
+    </center>
+    </table>
+</body>
+
+</html>
