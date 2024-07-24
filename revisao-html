@@ -18,33 +18,38 @@
                 <td width=" " align="center"><B>FOTO</B></td>
             </tr>
             <tr>
-                <td><center><img src="../viagem.jpg" width='70%'></td>
+                <td><center><img src="img/academia.jpg" width='70%'></td>
             </tr>
             <tr>
-                <td><center><img src="../doente.jpg" width='70%'></td>
+                <td><center><img src="img/cinema.jpg" width='70%'></td>
             </tr>
             <tr>
-                <td><center><img src="../comendo.jpg" width='70%'></td>
+                <td><center><img src="img/comendo.jpg" width='70%'></td>
             </tr>
             <tr>
-                <td><center><img src="../compras.jpg" width='70%'></td>
+                <td><center><img src="img/compras.jpg" width='70%'></td>
             </tr>
             <tr>
-                <td><center><img src="../volei.jpg" width='70%'></td>
+                <td><center><img src="img/doente.jpg" width='70%'></td>
             </tr>
             <tr>
-                <td><center><img src="../sono.jpg" width='70%'></td>
+                <td><center><img src="img/festa.jpg" width='70%'></td>
             </tr>
             <tr>
-                <td><center><img src="../festa.jpg" width='70%'></td>
+                <td><center><img src="img/parque.jpg" width='70%'></td>
             </tr>
             <tr>
-                <td><center><img src="../academia.jpg" width='70%'></td>
+                <td><center><img src="img/sono.jpg" width='70%'></td>
             </tr>
             <tr>
-                <td><center><img src="../parque.jpg" width='70%'></td>
+                <td><center><img src="img/viagem.jpg" width='70%'></td>
+            </tr>
+            <tr>
+                <td><center><img src="img/volei.jpg" width='70%'></td>
     </center>
     </table>
 </body>
 
 </html>
+                
+           
